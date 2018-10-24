@@ -1,0 +1,28 @@
+.navbar {
+    background-color: purple;
+}
+.navbar .navlink {
+    color: yellow;
+}
+
+.carousel-inner .carousel-item img{
+    height: 500px;
+}
+
+h3{
+    margin: auto
+}
+
+.card {
+    margin: auto
+}
+
+.btn{
+    color: gold;
+    background-color: purple;
+}
+
+blockquote {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+}
