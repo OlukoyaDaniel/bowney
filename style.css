@@ -1,28 +1,67 @@
 .navbar {
-    background-color: purple;
+  background-color: purple;
 }
 .navbar .navlink {
-    color: yellow;
+  color: yellow;
 }
 
-.carousel-inner .carousel-item img{
-    height: 500px;
+.carousel-inner .carousel-item img {
+  height: 500px;
 }
 
-h3{
-    margin: auto
+h3 {
+  margin: auto;
 }
 
 .card {
-    margin: auto
+  margin: auto;
 }
 
-.btn{
-    color: gold;
-    background-color: purple;
+.btn {
+  color: gold;
+  background-color: purple;
 }
 
 blockquote {
-    font-family: 'Lora', serif;
-    font-size: 30px;
+  font-family: "Lora", serif;
+  font-size: 30px;
+}
+
+#more {
+  display: none;
+}
+
+.bar {
+  height: 4px;
+  background-color: gold;
+}
+
+#modules {
+  text-align: center;
+}
+
+footer {
+  padding: 10px 0;
+  color: azure;
+  text-align: center;
+  background-color: rgba(33, 37, 41, 1);
+}
+ul.social-buttons {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  margin-left: auto;
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #d1bbe8;
 }
