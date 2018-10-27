@@ -5,9 +5,7 @@
   color: yellow;
 }
 
-.carousel-inner .carousel-item img {
-  height: 500px;
-}
+
 
 h3 {
   margin: auto;
@@ -15,6 +13,7 @@ h3 {
 
 .card {
   margin: auto;
+  margin-bottom: 50px;
 }
 
 .btn {
@@ -36,6 +35,11 @@ blockquote {
   background-color: gold;
 }
 
+.bar-t{
+  height: 4px;
+  background-color: purple;
+}
+
 #modules {
   text-align: center;
 }
@@ -46,6 +50,8 @@ footer {
   text-align: center;
   background-color: rgba(33, 37, 41, 1);
 }
+
+
 ul.social-buttons {
   padding-top: 5px;
   margin-bottom: 0;
@@ -64,4 +70,122 @@ ul.social-buttons li a {
   border-radius: 100%;
   outline: none;
   background-color: #d1bbe8;
+}
+
+.card-img-overlay{
+    background-color: rgba(0,0,0,0.5);
+}
+
+#donateButton{
+    background-color: purple;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: purple;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: gold;
+    color: black
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: gold;
+    color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-size: 30px;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    
+}
+
+#tabContentHeading{
+    font-size: 40px;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.tablinks{
+    color: white;
+    font-size: 30px;
+}
+
+
+#aboutVid {
+    margin-top: 150px;
+}
+
+.ourModule{
+    margin-top: 50px;
+    font-family: 'Charmonman', cursive;
+}
+
+#mod img
+{
+    border: 5px solid rgb(255, 176, 59);
+    border-radius: 2px;
+}
+
+.section-padding{
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+.header-h {
+    color: #FFB03B;
+    font-size: 46px;
+    font-family: 'Charmonman', cursive;
+    font-weight: 300;
+/*      border-bottom: 2px solid #FFB03B;*/
+}
+
+.header-t {
+    color: purple;
+    font-size: 46px;
+    font-family: 'Charmonman', cursive;
+    font-weight: 300;
+/*      border-bottom: 2px solid #FFB03B;*/
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: -20px;
 }
